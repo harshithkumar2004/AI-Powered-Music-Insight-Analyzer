@@ -74,7 +74,7 @@ def cluster_songs(playcount_list, listener_list):
 # Streamlit UI
 st.set_page_config(page_title="🎶 Music AI Analyzer", layout="wide")
 st.title("🎵 AI-Powered Music Analyzer")
-st.markdown("Analyze songs using *Last.fm metadata*, AI sentiment analysis, and predictive analytics.")
+st.markdown("Analyze songs using Last.fm metadata, AI sentiment analysis, and predictive analytics.")
 
 song_query = st.text_input("Enter a song name for analysis:")
 if st.button("Analyze Song") and song_query:
@@ -111,7 +111,7 @@ if st.button("Analyze Song") and song_query:
             # AI Sentiment Analysis
             st.subheader("🧠 AI Sentiment Analysis on Lyrics")
             lyrics_sample = "This is a sample of lyrics for sentiment analysis."
-            st.write(f"🎭 *Sentiment:* {analyze_lyrics_sentiment(lyrics_sample)}")
+            st.write(f"🎭 Sentiment: {analyze_lyrics_sentiment(lyrics_sample)}")
             
             # Popularity Forecast
             st.subheader("📊 Popularity Prediction")
