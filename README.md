@@ -21,4 +21,4 @@ An advanced AI-driven tool designed to analyze music trends, sentiment, and popu
 🔹 Enhanced ML Models – More accurate trend predictions and advanced clustering.  
 🔹 Multi-Platform Integration – Support for more music APIs beyond Last.fm.  
 
-This is just the beginning—expect more AI-powered insights soon! 🎧
+## This project is a work in progress, and I plan to improve it continuously. Contributions, suggestions, and ideas are always welcome! 🚀
